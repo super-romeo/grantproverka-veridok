@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://grantproverka.veridok.ru/price.html">
+<title>Цена — проверка заявки на грант ФПГ и ПФКИ</title>
+<meta name="description" content="Цена проверки заявки на грант Фонда президентских грантов и ПФКИ по критериям фонда.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="smoke.js" defer></script>
+<script>
+  /* Открыт экран цен — price_view через smoke.js (window.smokeTrack). */
+  document.addEventListener("DOMContentLoaded", function () { if (window.smokeTrack) window.smokeTrack("price_view"); });
+</script>
+</head>
+<body data-page="price">
+
+<header><div class="wrap">
+  <div class="logo"><a href="index.html" data-ev="click_logo_home">Проверка заявки</a></div>
+  <nav class="top"><a href="index.html#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="index.html#primer" data-ev="click_nav_primer">Пример</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Тариф и цена</h1>
+    <p class="sub">Замечания по каждому критерию, сверка бюджета, список правок и повторная проверка.</p>
+  </div>
+
+  <section id="cena">
+    <div class="grid">
+      <div class="card"><b>Одна заявка</b><span>149 ₽ за проверку с повторной.</span><br><a class="btn" href="pay.html?plan=odna" data-ev="payment_click click_pay_odna">Оплатить — 149 ₽</a></div>
+      <div class="card"><b>Три заявки</b><span>390 ₽ за три проверки.</span><br><a class="btn" href="pay.html?plan=tri" data-ev="payment_click click_pay_tri">Оплатить — 390 ₽</a></div>
+    </div>
+    <p class="cta-note">Сервис в подготовке · Оплата на этой странице не принимается</p>
+    <div class="actions"><a class="btn" href="index.html" data-ev="click_back">Вернуться к описанию</a></div>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
+  <p class="muted">Проверка текста заявки для вашей организации. Не связан с Фондом президентских грантов и Президентским фондом культурных инициатив.</p>
+</div></footer>
+
+</body>
+</html>
